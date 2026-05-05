@@ -16,21 +16,19 @@ Criar um app de fidelidade onde clientes acumulam pontos a cada abastecimento e 
 
 | Funcionalidade | Status | Descrição |
 | --- | --- | --- |
-| Cadastro/Login | ✅ | Firebase Authentication com e-mail e senha |
-| Saldo de Pontos | ✅ | Tela Home mostrando pontuação atualizada |
-| Extrato | ✅ | Lista de transações de pontos ganhos/resgatados |
-| Resgate via QR Code | ✅ | Gera QR Code para o frentista validar o desconto |
-| Painel Web Admin | ✅ | Versão simplificada para gestão validar resgates |
+| Login | ✅ | Tela de login com dados simulados |
+| Saldo de Pontos | ✅ | Tela Home mostrando 1.250 pontos mockados |
+| Extrato | ✅ | Lista de 3 transações simuladas |
+| Resgate via QR Code | ✅ | Gera QR Code local com ZXing |
+| Painel Web Admin | ⏳ | Planejado para v2 |
 
 ## 🛠️ Tecnologias Utilizadas
-
 - **Linguagem**: Kotlin
-- **IDE**: Android Studio
-- **Arquitetura**: MVVM + Clean Architecture
+- **IDE**: Android Studio Hedgehog
+- **Arquitetura**: MVVM
 - **UI**: Material Design 3, Jetpack Compose
-- **Backend**: Firebase Authentication + Cloud Firestore
-- **Testes**: JUnit, Espresso para testes de UI
-- **Prototipação**: Figma
+- **Bibliotecas**: Navigation Compose, ZXing para QR Code
+【5699748840685172590†L25-L33】【5699748840685172590†L45-L47】
 
 ## 📂 Estrutura do Projeto
 
@@ -42,8 +40,16 @@ app/
 │ └── ui/ # Telas Compose + ViewModels
 └── src/test/ # Testes unitários TDD
 
+## ▶️ Como Executar
+1. Clone o repositório
+2. Abra no Android Studio Hedgehog+
+3. Aguarde o Gradle Sync
+4. Rode em um emulador API 24+ ou dispositivo físico
+
+**APK para teste**: [Download APK](/apk/app-debug.apk)
+
 ## 🎥 Demonstração
-Vídeo de 1min com o fluxo completo: [[Link do YouTube não listado](https://youtu.be/zJWYNEnbp8c)]
+Vídeo de 1min com o fluxo completo: [[Link do YouTube](https://youtu.be/zJWYNEnbp8c)]
 
 ## 👨‍💻 Autor
 **Kayan Magalhães Gonçalves Ferreira** - Matrícula 202401517224
