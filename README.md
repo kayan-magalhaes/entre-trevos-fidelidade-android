@@ -43,7 +43,7 @@ app/
 └── src/test/ # Testes unitários TDD
 
 ## 🎥 Demonstração
-Vídeo de 2min com o fluxo completo: [Link do YouTube não listado ou Google Drive]
+Vídeo de 1min com o fluxo completo: [[Link do YouTube não listado](https://youtu.be/zJWYNEnbp8c)]
 
 ## 👨‍💻 Autor
 **Kayan Magalhães Gonçalves Ferreira** - Matrícula 202401517224
