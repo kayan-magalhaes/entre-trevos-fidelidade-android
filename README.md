@@ -46,7 +46,7 @@ app/
 3. Aguarde o Gradle Sync
 4. Rode em um emulador API 24+ ou dispositivo físico
 
-**APK para teste**: [Download APK]([/apk/app-debug.apk](https://github.com/kayan-magalhaes/entre-trevos-fidelidade-android/blob/main/apk/app-debug.apk))
+**APK para teste**: [Baixar APK](/apk/app-debug.apk)
 
 ## 🎥 Demonstração
 Vídeo de 1min com o fluxo completo: [[Link do YouTube](https://youtu.be/zJWYNEnbp8c)]
