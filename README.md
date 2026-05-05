@@ -34,7 +34,7 @@ Criar um app de fidelidade onde clientes acumulam pontos a cada abastecimento e 
 
 app/
 ├── src/main/java/com/estacio/entretrevos/
-│ ├── data/ # Repositórios e Firebase
+│ ├── data/ # Repositórios e dados mockados
 │ ├── di/ # Injeção de dependência
 │ ├── domain/ # Regras de negócio e models
 │ └── ui/ # Telas Compose + ViewModels
